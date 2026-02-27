@@ -1,0 +1,124 @@
+# DBRenderer translations - Diagram canvas and panels
+# UI Areas: Left sidebar, Canvas toolbar, Bottom-right zoom, Context menus
+
+dbrenderer:
+  tableSearchPanel:
+    title: テーブル
+    diagramViews: ダイアグラムビュー
+    diagramViewsTooltip: ダイアグラムビューは、データベース内の特定のドメインやワークフローを表すテーブルのコレクションです。
+    viewActions: ビュー操作
+    cannotRenameOrDelete: "{name} の名前変更や削除はできません"
+    rename: 名前を変更
+    delete: 削除
+    reset: リセット
+    save: 保存
+    saveAsNew: 新規として保存
+    searchPlaceholder: テーブルまたはスキーマを検索
+    searchPlaceholderWithGroup: テーブル、スキーマ、またはグループを検索
+    groupBy: グループ化
+    showAll: すべて表示
+    hideAll: すべて非表示
+    schema: スキーマ
+    tableGroup: テーブルグループ
+    noGroup: （グループなし）
+    defaultView: デフォルトビュー
+    unknownView: 不明なビュー
+    database: データベース
+    newView: 新しいビュー
+    copyOfName: "{name} のコピー"
+
+  controllerBar:
+    highlightRelationships: リレーションシップをハイライト
+    unhighlightRelationships: リレーションシップのハイライトを解除
+    enableGrid: グリッドを有効化
+    disableGrid: グリッドを無効化
+    addStickyNote: 付箋を追加
+    searchTables: テーブルを検索
+    hideTableSearch: テーブル検索を非表示
+    enterFullscreen: 全画面に切り替え
+    exitFullscreen: 全画面を終了
+
+  autoArrange:
+    title: 自動配置アルゴリズムを選択
+    leftRight: 左から右
+    topDown: 上から下
+    rightLeft: 右から左
+    bottomUp: 下から上
+    snowflake: スノーフレーク
+    compact: コンパクト
+    confirmMessage: ダイアグラムが自動的に再配置され、元に戻すことはできません。よろしいですか？
+    confirm: 確認 (↵)
+    cancel: キャンセル (Esc)
+
+  detailLevel:
+    title: 詳細レベル
+    showAllColumns: すべてのカラムを表示
+    hideColumns: カラムを非表示
+    showPrimaryKeys: 主キーのみ
+    showLimitedColumns: 限定カラム
+
+  viewDropdown:
+    renameView: ビューの名前を変更
+    removeView: ビューを削除
+    newView: 新しいビュー
+
+  diffLegend:
+    added: 追加
+    modified: 変更
+    deleted: 削除
+
+  viewportController:
+    zoomOut: 縮小（長押しで加速）
+    zoomIn: 拡大（長押しで加速）
+    editZoomLevel: クリックしてズームレベルを編集
+    zoomToFit: すべての要素を画面に収める
+    enablePanMode: クリックしてパンモードを有効化
+    disablePanMode: クリックしてパンモードを無効化
+    panModeHint: または Space / マウス中ボタン + ドラッグでパン
+
+  common:
+    confirm: 確認
+    cancel: キャンセル
+    save: 保存
+    close: 閉じる
+    delete: 削除
+    rename: 名前を変更
+    remove: 削除
+
+  emptyStateHint:
+    filtered:
+      title: ダイアグラムビューが空です
+      description: このビューのすべてのテーブルは現在非表示になっています。テーブル検索パネルを使用して、ダイアグラムビューにテーブルを表示してください。
+      openTableSearchPanel: テーブル検索パネルを開く
+    noDbml:
+      title: データベーススキーマが見つかりません
+      description: DBML コードにはまだテーブルが含まれていません。テーブルとリレーションシップを追加して、ダイアグラムを表示してください。
+      startAddingTables: テーブルの追加を開始
+
+  loading:
+    initializingTables: テーブルを初期化中...
+    initializingTablesProgress: テーブルを初期化中... ({current}/{total})
+    initializingTableGroups: テーブルグループを初期化中...
+    initializingTableGroupsProgress: テーブルグループを初期化中... ({current}/{total})
+    initializingReferences: リファレンスを初期化中...
+    initializingReferencesProgress: リファレンスを初期化中... ({current}/{total})
+    arrangingDiagram: ダイアグラムを配置中...
+    finalizingDiagram: ダイアグラムを仕上げ中...
+
+  filterConfigTags:
+    all: すべて
+    allTables: すべてのテーブル
+    allNotes: すべてのノート
+    nothing: なし
+    moreItems: '他 {count} 項目：'
+
+  stickyNotesSection:
+    title: 付箋
+  stickyNotes:
+    untitledNote: 無題のノート
+    removeNoteConfirmation: ノートを削除しますか？
+    'yes': 'はい'
+    'no': 'いいえ'
+
+  tableList:
+    noTablesFound: テーブルが見つかりません

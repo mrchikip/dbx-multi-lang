@@ -1,0 +1,124 @@
+# DBRenderer translations - Diagram canvas and panels
+# UI Areas: Left sidebar, Canvas toolbar, Bottom-right zoom, Context menus
+
+dbrenderer:
+  tableSearchPanel:
+    title: 表
+    diagramViews: 图表视图
+    diagramViewsTooltip: 图表视图是代表数据库中特定领域或工作流的表集合。
+    viewActions: 视图操作
+    cannotRenameOrDelete: 无法重命名或删除 {name}
+    rename: 重命名
+    delete: 删除
+    reset: 重置
+    save: 保存
+    saveAsNew: 另存为新
+    searchPlaceholder: 搜索表或模式
+    searchPlaceholderWithGroup: 搜索表、模式或组
+    groupBy: 分组方式
+    showAll: 全部显示
+    hideAll: 全部隐藏
+    schema: 模式
+    tableGroup: 表组
+    noGroup: (无分组)
+    defaultView: 默认视图
+    unknownView: 未知视图
+    database: 数据库
+    newView: 新视图
+    copyOfName: '{name} 的副本'
+
+  controllerBar:
+    highlightRelationships: 高亮关系
+    unhighlightRelationships: 取消高亮关系
+    enableGrid: 启用网格
+    disableGrid: 禁用网格
+    addStickyNote: 添加便签
+    searchTables: 搜索表
+    hideTableSearch: 隐藏表搜索
+    enterFullscreen: 进入全屏
+    exitFullscreen: 退出全屏
+
+  autoArrange:
+    title: 选择自动排列算法
+    leftRight: 从左到右
+    topDown: 从上到下
+    rightLeft: 从右到左
+    bottomUp: 从下到上
+    snowflake: 雪花形
+    compact: 紧凑型
+    confirmMessage: 你的图表将被自动重新排列，且无法撤销。你确定吗？
+    confirm: 确认 (↵)
+    cancel: 取消 (Esc)
+
+  detailLevel:
+    title: 详细级别
+    showAllColumns: 显示所有列
+    hideColumns: 隐藏列
+    showPrimaryKeys: 仅显示主键
+    showLimitedColumns: 有限列
+
+  viewDropdown:
+    renameView: 重命名视图
+    removeView: 删除视图
+    newView: 新视图
+
+  diffLegend:
+    added: 新增
+    modified: 修改
+    deleted: 删除
+
+  viewportController:
+    zoomOut: 缩小（按住加速）
+    zoomIn: 放大（按住加速）
+    editZoomLevel: 点击编辑缩放级别
+    zoomToFit: 缩放以适应所有元素
+    enablePanMode: 点击启用平移模式
+    disablePanMode: 点击禁用平移模式
+    panModeHint: 或按住空格键/鼠标中键 + 拖动来平移
+
+  common:
+    confirm: 确认
+    cancel: 取消
+    save: 保存
+    close: 关闭
+    delete: 删除
+    rename: 重命名
+    remove: 移除
+
+  emptyStateHint:
+    filtered:
+      title: 你的图表视图为空
+      description: 此视图中的所有表当前已隐藏。使用表搜索面板在图表视图中显示表。
+      openTableSearchPanel: 打开表搜索面板
+    noDbml:
+      title: 未找到数据库模式
+      description: 你的 DBML 代码还没有任何表。添加表和关系以查看你的图表。
+      startAddingTables: 开始添加表
+
+  loading:
+    initializingTables: 正在初始化表...
+    initializingTablesProgress: 正在初始化表... ({current}/{total})
+    initializingTableGroups: 正在初始化表组...
+    initializingTableGroupsProgress: 正在初始化表组... ({current}/{total})
+    initializingReferences: 正在初始化关系...
+    initializingReferencesProgress: 正在初始化关系... ({current}/{total})
+    arrangingDiagram: 正在排列你的图表...
+    finalizingDiagram: 正在完成图表...
+
+  filterConfigTags:
+    all: 全部
+    allTables: 所有表
+    allNotes: 所有笔记
+    nothing: 无
+    moreItems: '还有 {count} 项：'
+
+  stickyNotesSection:
+    title: 便签
+  stickyNotes:
+    untitledNote: 无标题便签
+    removeNoteConfirmation: 删除你的便签？
+    'yes': '是'
+    'no': '否'
+
+  tableList:
+    noTablesFound: 未找到表

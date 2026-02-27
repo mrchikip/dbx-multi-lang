@@ -1,0 +1,83 @@
+# Portal translations - Embedded documentation portal
+# UI Areas: OAuth callback pages, SSO portal, Error pages
+
+portal:
+  oauth:
+    welcomeTo: "{clientName} へようこそ"
+    signingInTo: "{clientName} にサインイン中"
+    successfullySignedInTo: "{clientName} に正常にサインインしました"
+    welcome: ようこそ
+    signingIn: サインイン中
+    successfullySignedIn: 正常にサインインしました
+    powering: 提供
+    signOutFrom: "{clientName} からサインアウト"
+    signOutFromAccount: アカウントからサインアウト
+
+  githubCallback:
+    authenticating: 認証処理中です。しばらくお待ちください...
+    authSuccess: 認証に成功しました！このウィンドウを安全に閉じることができます
+    title: GitHub 認証
+    errors:
+      noOpener:
+        title: 無効なアクセス
+        description: このページは直接開くことができません。アプリケーションに戻り、ログインプロセスを開始してください。
+      openerClosed:
+        title: 親ウィンドウが閉じられました
+        description: 認証中に元のアプリケーションウィンドウが閉じられました。アプリケーションに戻り、ログインプロセスを再度開始してください。
+      accessDenied:
+        title: アクセスが拒否されました
+        description: GitHub 認証がキャンセルされました。
+      appSuspended:
+        title: アプリケーションが停止中です
+        description: GitHub アプリケーションが停止されています。
+      redirectUriMismatch:
+        title: リダイレクト URI の不一致
+        description: リダイレクト URI が設定と一致しません。
+      unknown:
+        title: 予期しないエラー
+        description: エラーが発生しました。サポート dbdiagram@holistics.io にお問い合わせください
+
+  logout:
+    validating: ログアウトリクエストを検証中...
+    loggingOut: ログアウト中...
+    authorizationError: 認証エラー
+    logoutFailed: ログアウトに失敗しました
+
+  sso:
+    continue: 続行
+    multipleWorkspaces: "{email} に複数の SSO ワークスペースが見つかりました"
+    failedInitiate: SSO ログインの開始に失敗しました。もう一度お試しください。
+    somethingWrong: エラーが発生しました。もう一度お試しください！
+    loginCancelled: ログインがキャンセルされました。もう一度お試しください！
+
+  accountSelection:
+    continue: 続行
+    or: または
+    differentAccount: 別のアカウントを使用
+
+  emailInput:
+    placeholder: メールアドレス
+    send: 送信
+
+  errors:
+    internalServerError: サーバーで予期しないエラーが発生しました。後でもう一度お試しください。
+    serviceUnavailable: サービスが一時的に利用できません。しばらくしてからもう一度お試しください。
+    networkError: サーバーに接続できません。インターネット接続を確認してもう一度お試しください。
+    authenticationError: 認証エラーです。サポート dbdiagram@holistics.io にお問い合わせください
+    windowNotOpened: このウィンドウは正しく開かれませんでした。{clientName} に戻ってもう一度お試しください。
+    windowClosed: 元のアプリケーションウィンドウが閉じられました。{clientName} に戻ってもう一度お試しください。
+    communicationFailed: "{clientName} との通信に失敗しました。もう一度お試しください"
+    transferFailed: 認証の転送に失敗しました。もう一度お試しください。
+    canCloseWindow: このウィンドウを閉じることができます。
+
+  oauthErrors:
+    invalidAuthRequest: 無効な認証リクエスト
+    unsupportedResponseType: サポートされていない response_type パラメーター
+    invalidClient: 無効なクライアント
+    missingClientIdOrRedirectUri: client_id または redirect_uri がありません
+    missingCodeChallenge: '必須パラメーターがありません：code_challenge'
+    missingState: '必須パラメーターがありません：state'
+    invalidAccess: 無効なアクセス
+    pageMustBeOpened: このページはアプリケーションから開く必要があります。
+    unsupportedPrompt: サポートされていない prompt パラメーター
+    unexpectedError: 予期しないエラー

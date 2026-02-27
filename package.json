@@ -11,7 +11,9 @@
       "require": "./dist/index.cjs"
     },
     "./dist/en.json": "./dist/en.json",
-    "./dist/vi.json": "./dist/vi.json"
+    "./dist/vi.json": "./dist/vi.json",
+    "./dist/zh.json": "./dist/zh.json",
+    "./dist/ja.json": "./dist/ja.json"
   },
   "files": [
     "dist",

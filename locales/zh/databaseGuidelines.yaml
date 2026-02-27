@@ -1,0 +1,67 @@
+# Database Guidelines translations - Import instructions
+# UI Areas: Import modal, Database connection instructions
+
+databaseGuidelines:
+  mysql:
+    title: MySQL
+    install: 安装
+    tool: mysqldump
+    terminalCommand: 在你的终端中运行以下命令
+    linuxPrefix: 在 Linux 上你可能需要添加
+    sudo: sudo
+    linuxSuffix: 在它之前
+    example: 示例
+    step3: 复制导出的 SQL 内容并粘贴到此对话框中
+
+  postgres:
+    title: PostgreSQL
+    install: 安装
+    tool: pg_dump
+    terminalCommand: 在你的终端中运行以下命令
+    linuxPrefix: 在 Linux 上你可能需要添加
+    sudo: sudo
+    linuxSuffix: 在它之前
+    example: 示例
+    step3: 复制导出的 SQL 内容并粘贴到此对话框中
+
+  csv:
+    title: CSV
+    description: 上传 CSV 文件以自动生成 DBML 表结构。第一行应包含列标题
+    exampleFormat: CSV 格式示例
+
+  rails:
+    title: Rails schema.rb
+    step1: 打开
+    schemaRb: schema.rb
+    step1Suffix: 文件，使用任意代码编辑器
+    step2: 复制 schema.rb 的内容并粘贴到此对话框中
+
+  sqlServer:
+    title: SQL Server
+    step1: 下载并安装
+    tool: SQL Server Management Studio
+    step1Suffix: SSMS
+    step2: 打开 SSMS 并连接到你的 SQL Server
+    step3: 连接后，右键点击要导出的数据库，选择
+    scriptDatabaseAs: Script Database as
+    createTo: CREATE To
+    newQueryEditorWindows: New Query Editor Windows
+    step4: 复制导出的 SQL 内容并粘贴到此对话框中
+
+  oracle:
+    title: Oracle
+    description: 手动运行以下命令，然后使用
+    uploadSql: 上传 .sql
+    createDirectory: 在 Oracle 中创建目录对象
+    grantPrivileges: 授予目录对象的读写权限
+    exportSchema: 将特定模式导出为转储文件
+    convertDump: 将转储文件转换为 SQL 文件
+
+  snowflake:
+    title: Snowflake
+    description: 运行
+    getDdl: GET_DDL
+    descriptionSuffix: 命令，然后复制粘贴输出到屏幕上的文本输入框，或保存到文件后使用
+    uploadSql: 上传 .sql
+    exportAllTables: 导出整个数据库的所有表 DDL
+    selectSchema: 选择单个模式中的所有表

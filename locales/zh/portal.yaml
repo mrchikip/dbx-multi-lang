@@ -1,0 +1,83 @@
+# Portal translations - Embedded documentation portal
+# UI Areas: OAuth callback pages, SSO portal, Error pages
+
+portal:
+  oauth:
+    welcomeTo: 欢迎来到 {clientName}
+    signingInTo: 正在登录 {clientName}
+    successfullySignedInTo: 已成功登录 {clientName}
+    welcome: 欢迎
+    signingIn: 正在登录
+    successfullySignedIn: 已成功登录
+    powering: 技术支持
+    signOutFrom: 从 {clientName} 退出
+    signOutFromAccount: 退出你的账户
+
+  githubCallback:
+    authenticating: 正在进行身份验证，请稍候...
+    authSuccess: 身份验证成功！你可以安全地关闭此窗口
+    title: GitHub 身份验证
+    errors:
+      noOpener:
+        title: 无效访问
+        description: 此页面无法直接打开。请返回应用程序并重新开始登录流程。
+      openerClosed:
+        title: 父窗口已关闭
+        description: 原始应用程序窗口在身份验证期间已关闭。请返回应用程序并重新开始登录流程。
+      accessDenied:
+        title: 访问被拒绝
+        description: 你取消了 GitHub 身份验证。
+      appSuspended:
+        title: 应用已暂停
+        description: GitHub 应用已被暂停。
+      redirectUriMismatch:
+        title: 重定向 URI 不匹配
+        description: 重定向 URI 与配置不匹配。
+      unknown:
+        title: 意外错误
+        description: 出了点问题。请联系我们的支持 dbdiagram@holistics.io
+
+  logout:
+    validating: 正在验证退出请求...
+    loggingOut: 正在退出...
+    authorizationError: 授权错误
+    logoutFailed: 退出失败
+
+  sso:
+    continue: 继续
+    multipleWorkspaces: 发现 {email} 的多个 SSO 工作区
+    failedInitiate: 无法启动 SSO 登录。请重试。
+    somethingWrong: 出了点问题，请重试！
+    loginCancelled: 登录已取消，请重试！
+
+  accountSelection:
+    continue: 继续
+    or: 或
+    differentAccount: 使用其他账户
+
+  emailInput:
+    placeholder: 邮箱
+    send: 发送
+
+  errors:
+    internalServerError: 服务器发生意外错误。请稍后重试。
+    serviceUnavailable: 服务暂时不可用。请稍后重试。
+    networkError: 无法连接到服务器。请检查你的网络连接并重试。
+    authenticationError: 身份验证错误。请联系我们的支持 dbdiagram@holistics.io
+    windowNotOpened: 此窗口未正确打开。请返回 {clientName} 并重试。
+    windowClosed: 原始应用程序窗口已关闭。请返回 {clientName} 并重试。
+    communicationFailed: 与 {clientName} 通信失败。请重试
+    transferFailed: 传输身份验证失败。请重试。
+    canCloseWindow: 你现在可以关闭此窗口。
+
+  oauthErrors:
+    invalidAuthRequest: 无效的身份验证请求
+    unsupportedResponseType: 不支持的 response_type 参数
+    invalidClient: 无效的客户端
+    missingClientIdOrRedirectUri: 缺少 client_id 或 redirect_uri
+    missingCodeChallenge: '缺少必需参数：code_challenge'
+    missingState: '缺少必需参数：state'
+    invalidAccess: 无效访问
+    pageMustBeOpened: 此页面必须从应用程序打开。
+    unsupportedPrompt: 不支持的 prompt 参数
+    unexpectedError: 意外错误

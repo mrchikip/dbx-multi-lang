@@ -1,0 +1,67 @@
+# Database Guidelines translations - Import instructions
+# UI Areas: Import modal, Database connection instructions
+
+databaseGuidelines:
+  mysql:
+    title: MySQL
+    install: インストール
+    tool: mysqldump
+    terminalCommand: ターミナルで以下のコマンドを実行してください
+    linuxPrefix: Linux では先頭に
+    sudo: sudo
+    linuxSuffix: を追加する必要があるかもしれません
+    example: 例
+    step3: ダンプされた SQL の内容をコピーして、このモーダルに貼り付けてください
+
+  postgres:
+    title: PostgreSQL
+    install: インストール
+    tool: pg_dump
+    terminalCommand: ターミナルで以下のコマンドを実行してください
+    linuxPrefix: Linux では先頭に
+    sudo: sudo
+    linuxSuffix: を追加する必要があるかもしれません
+    example: 例
+    step3: ダンプされた SQL の内容をコピーして、このモーダルに貼り付けてください
+
+  csv:
+    title: CSV
+    description: CSV ファイルをアップロードすると、DBML テーブル構造が自動生成されます。最初の行にはカラムヘッダーを含めてください
+    exampleFormat: CSV フォーマットの例
+
+  rails:
+    title: Rails schema.rb
+    step1: プロジェクトの
+    schemaRb: schema.rb
+    step1Suffix: ファイルを任意のコードエディターで開いてください
+    step2: schema.rb の内容をコピーして、このモーダルに貼り付けてください
+
+  sqlServer:
+    title: SQL Server
+    step1: ダウンロードしてインストール
+    tool: SQL Server Management Studio
+    step1Suffix: SSMS
+    step2: SSMS を開き、SQL Server に接続してください
+    step3: 接続後、エクスポートするデータベースを右クリックして選択してください
+    scriptDatabaseAs: Script Database as
+    createTo: CREATE To
+    newQueryEditorWindows: New Query Editor Windows
+    step4: ダンプされた SQL の内容をコピーして、このモーダルに貼り付けてください
+
+  oracle:
+    title: Oracle
+    description: 以下のコマンドを手動で実行し、SQL ファイルを
+    uploadSql: .sql をアップロード
+    createDirectory: Oracle にディレクトリオブジェクトを作成
+    grantPrivileges: ディレクトリオブジェクトに読み書き権限を付与
+    exportSchema: 特定のスキーマをダンプファイルにエクスポート
+    convertDump: ダンプファイルを SQL ファイルに変換
+
+  snowflake:
+    title: Snowflake
+    description: 以下のコマンドを手動で実行してください
+    getDdl: GET_DDL
+    descriptionSuffix: コマンドの出力をコピーして画面のテキスト入力に貼り付けるか、ファイルに保存して以下を使用してアップロードしてください
+    uploadSql: .sql をアップロード
+    exportAllTables: データベース全体のすべてのテーブル DDL をエクスポート
+    selectSchema: 単一スキーマのすべてのテーブルを選択

@@ -1,0 +1,327 @@
+# Modals translations - Modal dialogs throughout the app
+# UI Areas: Share modal, Import modal, Export modal, History modal, Upgrade modals
+
+modals:
+  titles:
+    confirm: 確認
+    delete: 削除
+    remove: 削除
+    archive: アーカイブ
+    unarchive: アーカイブ解除
+    rename: 名前を変更
+    share: 共有
+    invite: 招待
+    settings: 設定
+    publish: 公開
+    export: エクスポート
+    import: インポート
+
+  confirmation:
+    default:
+      title: 確認
+      message: この操作を本当に続行しますか？
+      checkbox: 今後表示しない
+    delete:
+      title: 削除
+      message: この項目を削除してもよろしいですか？
+    deleteDiagram:
+      title: ダイアグラムを削除
+      message: このダイアグラムを削除してもよろしいですか？この操作は元に戻せません。
+      warning: この操作は元に戻せないことにご注意ください！
+      embedLinkActive: アクティブな埋め込みリンクがあります。
+      lastViewed: 最終閲覧
+    removeWorkspace:
+      title: ワークスペースを削除
+      message: このワークスペースを削除してもよろしいですか？
+    removeMember:
+      title: メンバーを削除
+      message: このメンバーをワークスペースから削除してもよろしいですか？
+      suggestion: 確認のためメールアドレスを入力してください。
+
+  share:
+    title: ダイアグラムを共有
+    tabs:
+      sharing: 共有
+      embedding: 埋め込み
+    generalAccess:
+      title: 一般アクセス
+      options:
+        private: プライベート
+        restricted: 制限付き
+        public: リンクを知っている全員
+      password: パスワード
+      passwordPlaceholder: パスワードを入力
+      createPassword: 作成
+      updatePassword: 更新
+      canAccess: アクセス可能
+      copyLink: リンクをコピー
+      updatePasswordButton: パスワードを更新
+    permissions:
+      title: 権限
+      owner: オーナー
+      admin: 管理者
+      editor: 編集者
+      viewer: 閲覧者
+      canEditAndInvite: 編集と招待が可能
+      canEditAndInviteDesc: 編集と他のユーザーの招待ができます。
+      canEdit: 編集可能
+      canEditDesc: 編集はできますが、招待はできません。
+      canView: 閲覧可能
+      canViewDesc: 閲覧はできますが、編集はできません。
+      remove: 削除
+      removeDesc: このコラボレーターを削除します。
+      noAccess: アクセスなし
+      noAccessDesc: このダイアグラムへのアクセス権がありません
+    invite:
+      title: ユーザーを招待
+      placeholder: メールアドレス（カンマまたはスペースで区切り）
+      button: 招待
+      copyLink: リンクをコピー
+      linkCopied: リンクがコピーされました！
+    members:
+      title: アクセス権を持つユーザー
+      you: （あなた）
+    confirmRemoveCollaborator: <b>{email}</b> をコラボレーターから削除しようとしています。操作を確認してください！
+    errors:
+      publicPermissionUpdateFailed: ダイアグラムの公開権限の更新に失敗しました。もう一度お試しください！
+      publicPermissionUpdated: ダイアグラムの公開権限が更新されました！
+      passwordLength: パスワードは6文字以上128文字以下である必要があります
+      createPasswordSuccess: パスワードの作成に成功しました
+      updatePasswordSuccess: パスワードの更新に成功しました
+      createPasswordFailed: パスワードの作成に失敗しました
+      updatePasswordFailed: パスワードの更新に失敗しました
+      cannotUpdateDiagramState: ダイアグラムの状態を更新できません
+      diagramIsPublic: ダイアグラムが公開になりました！
+      diagramIsPrivate: ダイアグラムがプライベートになりました！
+      diagramIsProtected: ダイアグラムが保護されました！
+    permissionChanged: 権限が変更されました。変更を適用するには再読み込みしてください！
+    reload: 再読み込み
+    cannotGetPermission: ダイアグラムの権限を取得できません。もう一度お試しください！
+    embedLink:
+      title: 埋め込みリンク
+      lastView: 最終閲覧
+      customize: 埋め込みリンクのオプションをカスタマイズ
+      darkMode: ダークモード
+      highlightRelationships: リレーションシップをハイライト
+      detailLevel: 詳細レベル
+      anyoneWithLink: リンクを持つすべての人が埋め込みダイアグラムを閲覧できます。
+      remove: この埋め込みリンクを削除しますか？他のユーザーはアクセスできなくなります。
+      generate: 埋め込みリンクを生成
+      errors:
+        cannotGet: 埋め込みリンクを取得できません。もう一度お試しください！
+        cannotCreate: 埋め込みリンクを作成できません。もう一度お試しください！
+        cannotDelete: 埋め込みリンクを削除できません。もう一度お試しください！
+        cannotUpdate: 埋め込みリンクの設定を更新できません。もう一度お試しください！
+    tooltip:
+      viewOnly: このユーザーの権限は閲覧のみに制限されています。
+      upgradePersonal: 編集コラボレーションを有効にするには、パーソナルワークスペースをアップグレードしてください。
+      freeAccount: このユーザーは<b>無料</b>アカウントです。
+      editAfterUpgrade: アカウントがアップグレードされた後、ダイアグラムの<b>編集</b>が許可されます。
+      collaborationLimit: コラボレーションできる最大人数
+      diagramLimit: 各ダイアグラムに最大4人の無料ユーザー（現在 {count} 人）
+      workspaceLimit: すべてのダイアグラムで最大6人の無料ユーザー（現在 {count} 人）
+
+  private:
+    protected: 保護されたダイアグラム
+    private: このダイアグラムはプライベートです
+    passwordRequired: このダイアグラムを閲覧するにはパスワードが必要です。
+    noAccess: このダイアグラムへのアクセス権がありません。
+    enterPassword: パスワードを入力してください
+    incorrectPassword: パスワードが正しくありません
+    tryAgain: もう一度お試しください！
+    viewDiagram: ダイアグラムを表示
+
+  publish:
+    title: 公開先
+    dbdocsLink: dbdocs
+    placeholder: プロジェクト URL
+    urlLabel: dbdocs.holistics.io/
+    publishButton: 公開
+    success: 正常に公開されました！
+    error: 公開に失敗しました
+    bullet1: ダイアグラムのウェブ閲覧可能なデータベースドキュメントを公開します。
+    bullet2: 公開されたドキュメントは、ダイアグラムオーナーのメールアドレスにリンクされた dbdocs アカウントで利用可能になります。
+    bullet3: ダイアグラムへの変更は dbdocs ドキュメントに自動的に反映されません。
+    publishNewOrUpdate: 新しいドキュメントを公開 / 既存のドキュメントを更新
+    updateExisting: 既存のドキュメントを更新
+    projectPublicDefault: dbdocs プロジェクトはデフォルトで「公開」に設定されています。リンクからアクセスできます。
+    documentProjectName: ドキュメントプロジェクト名
+    enterProjectName: プロジェクト名を入力
+    options: オプション
+    passwordProtection: パスワード保護
+    passwordOptional: パスワードを入力（オプション）
+    passwordMinLength: パスワードは6文字以上である必要があります
+    feedback: ご意見をお聞かせください
+    feedbackLink: フィードバック
+    aboutThisFeature: この機能について！
+    errorLoadingProjects: 公開済みプロジェクトの読み込み中にエラーが発生しました。サポート dbdiagram@holistics.io にお問い合わせください
+    errorPublishing: プロジェクトの公開中にエラーが発生しました。サポート dbdiagram@holistics.io にお問い合わせください
+    projectNameEmpty: プロジェクト名を入力してください
+    projectNameInvalid: プロジェクト名にはアルファベット、数字、スペース、"-" または "_" のみ使用できます
+    passwordInvalid: 無効なパスワードです。もう一度お試しください！
+
+  export:
+    title: ダイアグラムをエクスポート
+    button: エクスポート
+    formats:
+      png: PNG 画像
+      svg: SVG 画像
+      pdf: PDF ドキュメント
+      dbml: DBML
+      sql: SQL
+    toPDF: PDF へ
+    toPNG: PNG へ
+    toSVG: SVG へ
+    toPostgreSQL: PostgreSQL へ
+    toMySQL: MySQL へ
+    toSQLServer: SQL Server へ
+    toOracleSQL: Oracle SQL へ
+    error: エクスポートに失敗しました
+
+  import:
+    title: インポート
+    fromDatabase: データベースから
+    fromFile: ファイルから
+    fromSQL: SQL から
+    pasteSQL: ここに SQL を貼り付けてください
+    validate: 検証
+    validating: 検証中...
+    invalid: 無効な SQL フォーマットです
+    error: インポートに失敗しました
+    fromDbConnection: データベース接続から（CLI 経由）
+    fromMySQL: MySQL から
+    fromPostgreSQL: PostgreSQL から
+    fromSQLServer: SQL Server から
+    fromSnowflake: Snowflake から
+    fromOracleSQL: Oracle SQL から
+    fromRails: Rails (schema.rb) から
+    fromCSV: CSV から
+    fromFormat: "{format} からインポート"
+    instructions: 手順
+    showInstructions: 手順を表示
+    hideInstructions: 手順を非表示
+    upload: "{file} をアップロード"
+    appendMode: 変換された DBML を末尾に追加
+    modal:
+      validating: 検証中
+    dbConnection:
+      title: データベースへの直接接続から DBML を生成
+      intro1: この方法はデータベースに直接接続し、データベーススキーマ（通常は INFORMATION_SCHEMA から）を読み取って DBML コードを生成します。
+      intro2: すべてローカルマシンで実行され、データベース認証情報は追跡や送信されません。
+      intro3: コードはオープンソースです
+      intro3Link: から確認できます
+      step1: 1. インストール
+      step1Note: 追加が必要な場合があります
+      step1NoteSudo: Linux でのコマンドの前に
+      step2: 2. 以下のコマンドを実行
+      exampleFor: 例
+      successMessage: 'データベース接続から DBML ファイルが生成されました：database.dbml'
+      successBigquery: '注意：BigQuery の場合、JSON 認証情報ファイルに以下のキーが含まれている必要があります'
+      successSnowflake1: 接続を試行中...
+      successSnowflake2: クエリを実行中...
+      successSnowflake3: クエリが正常に実行されました。
+      successSnowflake4: 接続が正常に切断されました。
+      step3: 3. 生成された DBML をコピーしてコードパネルに貼り付け、データベースを可視化してください。
+      databaseTypes:
+        mysql: MySQL
+        postgres: PostgreSQL
+        mssql: SQL Server
+        oracle: Oracle
+        snowflake: Snowflake
+        bigquery: BigQuery
+
+  stickyNotes:
+    title: 付箋
+    upgradeRequired: 付箋を使用するにはプランをアップグレードしてください
+    upgradeButton: プランを見る
+
+  upgrade:
+    titles:
+      createDiagram: ダイアグラム数の上限に達しました！
+      detailLevels: 有料機能を発見しました！
+      detailLevelsDbdocs: 有料プロジェクトの機能を発見しました！
+      diagramView: 追加ビューの作成は有料機能です
+      headerColor: 有料機能を発見しました！
+      headerColorDbdocs: 有料プロジェクトの機能を発見しました！
+      privateDiagram: 有料機能を発見しました！
+      stickyNotes: 有料機能を発見しました！
+      stickyNotesDbdocs: 有料プロジェクトの機能を発見しました！
+      versionHistory: 有料機能を発見しました！
+      aiAssistant: dbdiagram AI アシスタントは有料機能です
+      tableGroup: 有料機能を発見しました！
+      tableGroupDbdocs: テーブルグループ（有料プロジェクトの機能）を発見しました！
+    descriptions:
+      createDiagram: 有料プランにアップグレードして、<b>無制限の<br>ダイアグラム作成</b>やその他の高度な機能をご利用ください！
+      detailLevels: 有料プランにアップグレードして、詳細レベル、ヘッダーカラー、<br>テーブルグループ、その他の今後の機能をご利用ください！
+      detailLevelsDbdocs: プロジェクトをアップグレードして、詳細レベル、ヘッダーカラー、<br>テーブルグループ、その他の今後の機能をご利用ください！
+      diagramView: Free プランでは、デフォルトビューのみ保存できます。<br>有料プランにアップグレードして、<b>無制限のダイアグラムビュー</b>やその他の高度な機能をご利用ください！
+      headerColor: 有料プランにアップグレードして、詳細レベル、ヘッダーカラー、<br>リレーションシップカラー、テーブルグループ、その他の今後の機能をご利用ください！
+      headerColorDbdocs: プロジェクトをアップグレードして、詳細レベル、ヘッダーカラー、<br>リレーションシップカラー、テーブルグループ、その他の今後の機能をご利用ください！
+      privateDiagram: 有料プランにアップグレードして、<br><strong>パスワード保護、プライベートモード</strong>やその他の高度な機能でダイアグラムを保護しましょう！
+      stickyNotes: 有料プランにアップグレードして、ダイアグラムに<strong>付箋</strong>を追加し、<br>その他の高度な機能をご利用ください！
+      stickyNotesDbdocs: プロジェクトをアップグレードして、ダイアグラムに<strong>付箋</strong>を追加し、<br>その他の高度な機能をご利用ください！
+      versionHistory: さまざまな<b>スキーマバージョン</b>で自由に実験しましょう。<br>いつでも過去のバージョンにロールバックできます。
+      aiAssistant: 有料プランにアップグレードして、<br><strong>AI を活用した自然言語アシスタンス</strong>でデータベーススキーマを設計・最適化しましょう
+      tableGroup: 有料プランにアップグレードして、詳細レベル、ヘッダーカラー、<br>テーブルグループ、その他の今後の機能をご利用ください！
+      tableGroupDbdocs: プロジェクトをアップグレードして、詳細レベル、ヘッダーカラー、<br>テーブルグループ、その他の今後の機能をご利用ください！
+    buttons:
+      viewPlans: プランを見る
+      upgradeProject: プロジェクトをアップグレード
+
+  history:
+    title: バージョン履歴
+    deletedUser: 削除されたユーザー
+    restoreVersion: バージョンを復元
+    makeCopy: コピーを作成
+    upgradeTitle: アップグレードして閲覧、復元、複製
+    errors:
+      cannotView: このバージョンを表示できません
+      cannotCopy: このバージョンをコピーできません
+    restoreConfirmation:
+      title: このバージョンを復元しますか？
+      message: 現在のダイアグラムがこのバージョンに復元されます。
+    success:
+      versionCopied: バージョンが正常にコピーされました
+    copiedName: （復元済み）{name}
+    untitled: 無題
+
+  errors:
+    inviteMaxEmails: 50件以上のメールアドレスを招待することはできません
+    inviteFailed: 招待できません。もう一度お試しください！
+    cannotGetCollaborators: コラボレーター情報を取得できません！
+    permissionUpdateFailed: 権限の更新に失敗しました
+    permissionUpdateSuccess: 権限の更新に成功しました
+    inviteSent: 招待が送信されました
+    permissionDenied: 権限が拒否されました
+    cannotGetWorkspaceParticipants: ワークスペースの参加者を取得できません。もう一度お試しください！
+    cannotGetUserWorkspaces: ユーザーのワークスペースを取得できません。もう一度お試しください！
+    cannotGetWorkspacesSubscription: ワークスペースのサブスクリプション情報を取得できません。もう一度お試しください！
+    exportSqlFailed: SQL のエクスポートに失敗しました。データベーススキーマを更新してもう一度お試しください。
+    savePdfFailed: PDF を保存できません
+    saveSvgFailed: SVG を保存できません
+    savePngFailed: PNG を保存できません
+    checkoutFailed: チェックアウト中にエラーが発生しました。後でもう一度お試しください
+    checkoutSuccess: チェックアウトに成功しました
+    switchPlanSuccess: プランの切り替えに成功しました
+    paymentProcessing: お支払いを処理中です。数分後にページを再読み込みしてください。
+    tokenGenerated: トークンの生成に成功しました
+    githubSignInFailed: GitHub でのサインインに失敗しました
+    microsoftSignInFailed: Microsoft でのサインインに失敗しました。もう一度お試しください！
+    supportContact: エラーが発生しました。サポート dbdiagram@holistics.io にお問い合わせください
+    cannotGetDiagrams: ダイアグラムを取得できません。アプリを再読み込みしてください！
+    cannotRemoveDefaultView: デフォルトビューは削除できません！
+    cannotRemoveView: このビューを削除できません。再読み込みしてもう一度お試しください！
+    removeViewTitle: ダイアグラムビューを削除しますか？
+    removeViewContent: "「{name}」ビューを削除しますか？"
+    cancel: キャンセル
+    removeView: ビューを削除
+    close: 閉じる
+
+  workspaceType:
+    personal: パーソナルワークスペース
+    team: チームワークスペース
+
+  detailLevelsDropdown:
+    tableNames: テーブル名
+    keysOnly: キーのみ
+    allFields: すべてのフィールド

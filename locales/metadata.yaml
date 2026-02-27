@@ -12,3 +12,15 @@ vi:
   nativeName: Tiếng Việt
   flag: 🇻🇳
   hello: Xin chào
+
+zh:
+  name: Chinese (Simplified)
+  nativeName: 简体中文
+  flag: 🇨🇳
+  hello: 你好
+
+ja:
+  name: Japanese
+  nativeName: 日本語
+  flag: 🇯🇵
+  hello: こんにちは
