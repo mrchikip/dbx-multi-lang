@@ -81,8 +81,7 @@ auth:
     redirectDescription: Bạn sẽ được chuyển đến ứng dụng trong vài giây. # Help text
 
   popupsWarning:
-    title: Cửa sổ đăng nhập bị chặn
-    description: Vui lòng tắt các tiện ích mở rộng của trình duyệt, {0} cho trang web này và thử lại.
-    allowPopUps: cho phép cửa sổ bật lên
+    title: Không thể mở cửa sổ đăng nhập
+    description: Cửa sổ đăng nhập có thể đã bị chặn bởi trình duyệt hoặc tiện ích mở rộng. Vui lòng kiểm tra cài đặt và thử lại.
     needHelp: Bạn cần trợ giúp?
     contactSupport: Liên hệ hỗ trợ

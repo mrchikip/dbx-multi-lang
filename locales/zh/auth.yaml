@@ -81,8 +81,7 @@ auth:
     redirectDescription: 你将在几秒钟后被重定向到应用程序。 # Help text
 
   popupsWarning:
-    title: 登录窗口已拦截
-    description: 请禁用浏览器扩展程序，{0}此站点的弹出窗口，然后重试。
-    allowPopUps: 允许弹出窗口
+    title: 无法打开登录窗口
+    description: 登录窗口可能已被您的浏览器或扩展程序拦截。请检查您的设置，然后重试。
     needHelp: 需要帮助？
     contactSupport: 联系支持

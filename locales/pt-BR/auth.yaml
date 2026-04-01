@@ -81,8 +81,7 @@ auth:
     redirectDescription: Você será redirecionado para o aplicativo em alguns segundos.
 
   popupsWarning:
-    title: Janela de login bloqueada
-    description: Desative as extensões do navegador, {0} para este site, e tente novamente.
-    allowPopUps: permitir pop-ups
+    title: Não foi possível abrir a janela de login
+    description: A janela de login pode ter sido bloqueada pelo seu navegador ou uma extensão. Verifique suas configurações e tente novamente.
     needHelp: Precisa de ajuda?
     contactSupport: Contato suporte

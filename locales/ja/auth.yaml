@@ -81,8 +81,7 @@ auth:
     redirectDescription: 数秒後にアプリケーションにリダイレクトされます。 # Help text
 
   popupsWarning:
-    title: ログインウィンドウがブロックされました
-    description: ブラウザの拡張機能を無効にするか、このサイトの{0}してから、もう一度お試しください。
-    allowPopUps: ポップアップを許可
+    title: サインインウィンドウを表示できません
+    description: サインインウィンドウがブラウザまたは拡張機能によってブロックされた可能性があります。設定を確認して、もう一度お試しください。
     needHelp: お困りですか？
     contactSupport: サポートに問い合わせる
