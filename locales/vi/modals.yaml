@@ -236,11 +236,7 @@ modals:
     allFields: Hiện tất cả cột
 
   migrationPreview:
-    title: Xem trước chuyển đổi Diagram View
-    description: Các diagram view của bạn cần được chuyển đổi sang định dạng "Diagram View as Code" mới. Các thay đổi sau sẽ được áp dụng vào DBML của bạn.
+    title: Diagram View nay được lưu trong DBML của bạn
+    description: Chúng tôi đã chuyển cài đặt diagram view trực tiếp vào DBML dưới dạng các khối DiagramView. Điều này giúp diagram view trở thành một phần của DBML cùng với schema.
     learnMore: Tìm hiểu thêm về Diagram Views
-    backupAdvice: Chúng tôi khuyên bạn xem xét các thay đổi bên dưới và sao lưu DBML hiện tại trước khi tiếp tục.
-    contact: Nếu bạn gặp bất kỳ vấn đề nào, vui lòng liên hệ
-    dismiss: Nhắc tôi sau
-    confirm: Áp dụng chuyển đổi
-    diffTitle: Thay đổi DBML
+    confirm: Tiếp tục

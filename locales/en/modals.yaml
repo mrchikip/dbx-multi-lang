@@ -283,15 +283,9 @@ modals:
   # Migration preview modal
   # ========================================
   migrationPreview:
-    title: Diagram View Migration Preview
+    title: Diagram Views are now stored in your DBML
     description: >-
-      Your diagram views need to be migrated to the new "Diagram View as Code" format.
-      The following changes will be applied to your DBML code.
+      We've moved your diagram view settings directly into your DBML code as DiagramView blocks.
+      This makes your views part of your DBML code alongside your schema.
     learnMore: Learn more about Diagram Views
-    backupAdvice: >-
-      We recommend reviewing the changes below and backing up your current DBML before proceeding.
-    contact: >-
-      If you encounter any issues, please contact us at
-    dismiss: Remind me later
-    confirm: Apply migration
-    diffTitle: DBML Changes
+    confirm: Continue
