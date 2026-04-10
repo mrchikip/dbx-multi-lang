@@ -150,3 +150,13 @@ dbrenderer:
   # ========================================
   tableList:
     noTablesFound: Nenhuma tabela encontrada
+  recordPreviewModal:
+    infoTooltip: Veja linhas de exemplo para entender rapidamente os dados da tabela
+    editBtn:
+      title: Editar
+      tooltip: Editar dados de exemplo
+    downloadBtn:
+      title: Baixar
+      tooltip: Baixar CSV
+  viewNoteModal:
+    infoTooltip: Suporte a formatação com Markdown

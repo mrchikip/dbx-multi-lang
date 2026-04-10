@@ -96,3 +96,13 @@ dbrenderer:
     'no': Không
   tableList:
     noTablesFound: Không tìm thấy bảng nào
+  recordPreviewModal:
+    infoTooltip: Xem các dòng ví dụ để nhanh chóng hiểu dữ liệu của bảng
+    editBtn:
+      title: Chỉnh sửa
+      tooltip: Chỉnh sửa dữ liệu mẫu
+    downloadBtn:
+      title: Tải xuống
+      tooltip: Tải xuống CSV
+  viewNoteModal:
+    infoTooltip: Hỗ trợ định dạng bằng Markdown

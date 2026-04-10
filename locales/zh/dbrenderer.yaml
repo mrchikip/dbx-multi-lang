@@ -99,3 +99,13 @@ dbrenderer:
     'no': 否
   tableList:
     noTablesFound: 未找到表
+  recordPreviewModal:
+    infoTooltip: 查看示例行以快速了解表格数据
+    editBtn:
+      title: 编辑
+      tooltip: 编辑示例数据
+    downloadBtn:
+      title: 下载
+      tooltip: 下载 CSV
+  viewNoteModal:
+    infoTooltip: 支持使用 Markdown 进行样式设置
