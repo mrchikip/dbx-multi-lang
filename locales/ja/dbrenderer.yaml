@@ -98,3 +98,13 @@ dbrenderer:
     'no': いいえ
   tableList:
     noTablesFound: テーブルが見つかりません
+  recordPreviewModal:
+    infoTooltip: サンプル行を表示して、テーブルのデータをすばやく理解できます
+    editBtn:
+      title: 編集
+      tooltip: データサンプルを編集
+    downloadBtn:
+      title: ダウンロード
+      tooltip: CSVをダウンロード
+  viewNoteModal:
+    infoTooltip: Markdownによるスタイリングに対応しています

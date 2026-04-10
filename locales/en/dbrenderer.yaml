@@ -149,3 +149,20 @@ dbrenderer:
   # ========================================
   tableList:
     noTablesFound: No tables found # Empty state (search results)
+
+  # ========================================
+  # Record Preview - Preview data sample modal
+  # ========================================
+  recordPreviewModal:
+    infoTooltip: View example rows to quickly understand the table’s data
+    editBtn:
+      title: Edit
+      tooltip: Edit data sample
+    downloadBtn:
+      title: Download
+      tooltip: Download CSV
+  # ========================================
+  # View note modal - Preview markdown note
+  # ========================================
+  viewNoteModal:
+    infoTooltip: Styling with Markdown is supported
