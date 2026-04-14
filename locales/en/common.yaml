@@ -29,7 +29,7 @@ common:
     sampleDiagrams: Sample Diagrams # Opens templates gallery modal
     sampleAirbnb: Sample Airbnb # Opens Airbnb database schema template
     sampleEcommerce: Sample E-commerce # Opens e-commerce schema template
-    whatsNew: What's new # Opens what's new modal (highlights recent features)
+    whatsNew: What's New # Opens what's new modal (highlights recent features)
     language: Language # Submenu for selecting app language
     contribute: Help translate this app # Link to Crowdin/translation project
 

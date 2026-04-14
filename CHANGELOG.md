@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.11 (Apr 14, 2026)
+### Misc
+* Change "What's new" to "What's New" for consistent casings
+
 ## 1.1.10 (Apr 14, 2026)
 ### Misc
 * Update help's dropdown copywriting for consistent casings
