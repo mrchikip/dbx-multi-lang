@@ -6,82 +6,82 @@ auth:
   # Login Page - Email/password login
   # ========================================
   login:
-    email: Email # Email input label
-    loginWithGithub: Log in with GitHub # Social login button (GitHub)
-    loginWithMicrosoft: Log in with Microsoft # Social login button (Microsoft)
+    email: Correo Electrónico # Email input label
+    loginWithGithub: Iniciar sesión con GitHub # Social login button (GitHub)
+    loginWithMicrosoft: Iniciar sesión con Microsoft # Social login button (Microsoft)
 
   # ========================================
   # OAuth Errors - OAuth flow errors
   # ========================================
   oauth:
-    authorizationError: Authorization failed # OAuth error title
-    processing: Processing... # Loading state (OAuth redirect)
-    justAMomentPleaseWait: Just a moment, please wait... # Loading message (OAuth redirect)
-    signedInAs: You are signed in as # Session label (SSO indicator)
-    failedSignInGitHub: Failed to sign in with GitHub # Error toast (GitHub OAuth)
-    failedSignInMicrosoft: Failed to sign in with Microsoft, please try again! # Error toast (Microsoft OAuth)
+    authorizationError: Autorización fallida # OAuth error title
+    processing: Procesando... # Loading state (OAuth redirect)
+    justAMomentPleaseWait: Solo un momento, por favor espere... # Loading message (OAuth redirect)
+    signedInAs: Está conectado como # Session label (SSO indicator)
+    failedSignInGitHub: Error al iniciar sesión con GitHub # Error toast (GitHub OAuth)
+    failedSignInMicrosoft: Error al iniciar sesión con Microsoft, por favor intente de nuevo! # Error toast (Microsoft OAuth)
 
   # ========================================
   # Form Errors - Validation error messages
   # ========================================
   errors:
-    invalidEmail: Invalid email address, please try again! # Email validation
-    githubPopupBlocked: Please allow popups to sign in with GitHub # Browser setting error
+    invalidEmail: Dirección de correo electrónico inválida, por favor intente de nuevo! # Email validation
+    githubPopupBlocked: Por favor, permita ventanas emergentes para iniciar sesión con GitHub # Browser setting error
 
   # ========================================
   # OTP Authentication - One-time password
   # ========================================
   otp:
-    signInWithEmail: Sign in with Email # OTP tab label
-    otpSentTo: OTP sent to # Label (shows masked email)
-    wrongEmail: Wrong email address? # Change email link
-    changeEmail: Change email # Change email button
-    inputEmail: Please input your email address # Email input placeholder
-    inputYourOtp: Input your OTP # OTP input placeholder
-    inputOtpCode: Please input the OTP code sent to the email # OTP help text
-    signInSuccess: Signed in successfully # Success message
-    didntReceiveOtp: Didn't receive the OTP? # Help text (resend section)
-    resendOtp: Resend OTP # Resend button
-    resendAfter: You can resend OTP after {counter}s # Timer label (disabled state)
-    submit: Submit # OTP submit button
-    sendOtpFailed: Send OTP failed, please try again! # Error toast
+    signInWithEmail: Iniciar sesión con correo electrónico # OTP tab label
+    otpSentTo: OTP enviado a # Label (shows masked email)
+    wrongEmail: ¿Dirección de correo electrónico incorrecta? # Change email link
+    changeEmail: Cambiar correo electrónico # Change email button
+    inputEmail: Por favor, ingrese su dirección de correo electrónico # Email input placeholder
+    inputYourOtp: Ingrese su OTP # OTP input placeholder
+    inputOtpCode: Por favor, ingrese el código OTP enviado al correo electrónico # OTP help text
+    signInSuccess: Sesión iniciada correctamente # Success message
+    didntReceiveOtp: ¿No recibió el OTP? # Help text (resend section)
+    resendOtp: Reenviar OTP # Resend button
+    resendAfter: Puede reenviar el OTP después de {counter}s # Timer label (disabled state)
+    submit: Enviar # OTP submit button
+    sendOtpFailed: Error al enviar el OTP, por favor intente de nuevo! # Error toast
 
   # ========================================
   # SSO Login - Single Sign-On
   # ========================================
   sso:
-    orContinueWith: or continue with # SSO divider text
+    orContinueWith: o continuar con # SSO divider text
 
   # ========================================
   # Embedded Portal - OAuth portal pages
   # ========================================
   portal:
-    signIn: Sign in # Button (portal embedded login)
-    signInWith: Sign in with
+    signIn: Iniciar sesión # Button (portal embedded login)
+    signInWith: Iniciar sesión con
 
   # ========================================
   # Additional Errors - Extra error messages
   # ========================================
   additional:
-    unknownError: Unknown error # Fallback error
-    invalidOtp: Invalid OTP, please try again! # OTP validation error
-    cannotValidateOtp: Can not validate OTP, please try again! # OTP validation failure
-    emailNotVerified: Your email is not verified. Please verify them on Microsoft account. # MS email verification
-    cannotSignInMicrosoftSSO: Cannot sign in with Microsoft SSO, please try again! # MS SSO error
-    cannotSignIn: Cannot sign in, please try again! # Generic sign-in error
-    failedReloadProject: Failed to reload project after login. Please refresh the page. # Reload error
-    loginError: Login error # Generic login error
-    signInCancelled: Sign in cancelled. Please try again. # Cancelled flow
+    unknownError: Error desconocido # Fallback error
+    invalidOtp: OTP inválido, por favor intente de nuevo! # OTP validation error
+    cannotValidateOtp: No se puede validar el OTP, por favor intente de nuevo! # OTP validation failure
+    emailNotVerified: Su correo electrónico no está verificado. Por favor, verifíquelo en su cuenta de Microsoft. # MS email verification
+    cannotSignInMicrosoftSSO: No se puede iniciar sesión con Microsoft SSO, por favor intente de nuevo! # MS SSO error
+    cannotSignIn: No se puede iniciar sesión, por favor intente de nuevo! # Generic sign-in error
+    failedReloadProject: Error al recargar el proyecto después del inicio de sesión. Por favor, actualice la página. # Reload error
+    loginError: Error de inicio de sesión # Generic login error
+    signInCancelled: Inicio de sesión cancelado. Por favor, intente de nuevo. # Cancelled flow
 
   # ========================================
   # Logout Callback - Post-logout redirect
   # ========================================
   logoutCallback:
-    redirecting: Redirecting... # Loading message (logout redirect)
-    redirectDescription: You will be redirected to the application in a few seconds. # Help text
+    redirecting: Redirigiendo... # Loading message (logout redirect)
+    redirectDescription: Será redirigido a la aplicación en unos segundos. # Help text
 
   popupsWarning:
-    title: Unable to open the sign-in window
-    description: The sign-in window may have been blocked by your browser or an extension. Please check your settings and try again.
-    needHelp: Need help?
-    contactSupport: Contact support
+    title: No se puede abrir la ventana de inicio de sesión
+    description: La ventana de inicio de sesión pudo haber sido bloqueada por su navegador o una extensión. Por favor, verifique sus configuraciones y vuelva a intentarlo.
+    needHelp: ¿Necesita ayuda?
+    contactSupport: Contactar con soporte
