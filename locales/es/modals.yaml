@@ -159,7 +159,7 @@ modals:
     hideInstructions: Ocultar instrucciones # Hide instructions button
     upload: Subir {file} # Upload button label
     appendMode: Agregar DBML convertido al final # Append mode toggle    modal:
-      validating: Validating # Validating modal title
+    validating: Validating # Validating modal title
     dbConnection:
       title: Generar DBML desde conexión directa a la base de datos # CLI import modal title
       intro1: Este método se conecta directamente a tu base de datos y lee el esquema de tu base de datos (generalmente desde INFORMATION_SCHEMA) para generar código DBML. # Intro text part 1
