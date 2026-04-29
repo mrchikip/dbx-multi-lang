@@ -57,7 +57,7 @@ portal:
   # ========================================
   sso:
     continue: Continuar # Button (SSO continue)
-    multipleWorkspaces: últiples espacios de trabajo SSO encontrados para {email} # Multiple workspaces warning
+    multipleWorkspaces: Múltiples espacios de trabajo SSO encontrados para {email} # Multiple workspaces warning
     failedInitiate: Error al iniciar sesión SSO. Por favor intenta de nuevo. # Error message (SSO)
     somethingWrong: Algo salió mal, por favor intenta de nuevo! # Generic error
     loginCancelled: Inicio de sesión cancelado, por favor intenta de nuevo! # Cancelled message
