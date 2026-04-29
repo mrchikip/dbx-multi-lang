@@ -95,9 +95,9 @@ billing:
     cancelledOn: Cancelado el # Cancellation date label
     planDetails: Detalles del Plan → # Link to plan features
     upgradeDescription: Actualice a nuestros planes pagados para obtener Niveles de Detalle, Color de Encabezado y todas las funciones próximas # Upgrade prompt
-    nextPayment: Su próxima payment es # Payment section header
+    nextPayment: Su próximo pago es # Payment section header
     chargedOn: para ser cargado el # Payment date suffix
-    editSubscription: Editar suscription # Button (payment method)
+    editSubscription: Editar suscripción # Button (payment method)
     switchToMonthly: Cambiar a facturación mensual # Toggle option
     switchToYearly: Cambiar a facturación anual # Toggle option (savings)
     noPaymentMethod: Sin método de pago # Empty state label
